@@ -1,0 +1,20 @@
+[
+    {
+        "name":"VoerkaI18n",
+        "author":"zhangfisher",
+        "repo":"voerka-i18n",        
+        "description":"Nodejs/Vue/React国际化解决方案"
+    },
+    {
+        "name":"FlexState",
+        "author":"zhangfisher",
+        "repo":"flexstate",        
+        "description":"有限状态机实现"
+    },
+    {
+        "name":"FlexTools",
+        "author":"zhangfisher",
+        "repo":"flex-tools",        
+        "description":"实现工具函数库"
+    }
+]
