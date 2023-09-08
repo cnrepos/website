@@ -4,23 +4,17 @@ layout: home
 
 hero:
   name: "CnRepos"
-  text: "用心开源"
-  tagline: 高质量开源项目集中营
+  text: "人类高质量开源项目"
+  tagline: 用爱开源，用心维护，拒绝垃圾
   actions:
     - theme: brand
       text: 加入我们
       link: /markdown-examples
     - theme: alt
-      text: Github
-      link: /api-examples
+      text: 关于
+      link: /docs/about
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 ---
 
 

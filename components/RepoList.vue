@@ -3,11 +3,16 @@ import { computed } from 'vue'
 import { Repo } from './types';
  
 const props = defineProps<{
-  repos:Repo[]
+  repos:Repo[],
+  onlyOne:boolean      // 强制一行只显示一个
 }>()
 
 const grid = computed(() => {
   const length = props.repos.length
+  const onlyOne = props.onlyOne
+  if (onlyOne) {
+    return ''
+  } 
   if (!length) {
     return
   } else if (length === 2) {
@@ -42,7 +47,7 @@ export default {
           class="item"
           :class="[grid]"
         > 
-        <RepoCard :repo="repo" />
+          <RepoCard :repo="repo" />
         </div>
       </div>
     </div>
@@ -99,7 +104,7 @@ export default {
 
   .item.grid-3,
   .item.grid-6 {
-    width: calc(100% / 3);
+    width: calc(100% /3);
   }
 }
 
