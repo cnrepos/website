@@ -46,5 +46,12 @@
         "repo":"mixed-cli",        
         "title":"为命令行开发自动生成交互提示",
         "tags":[]
+    },
+    {
+        "name":"logsets",
+        "author":"zhangfisher",
+        "repo":"logsets",        
+        "title":"终端输出增强组件",
+        "tags":[]
     }
 ]
