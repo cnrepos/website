@@ -46,5 +46,19 @@
         "repo":"mixed-cli",        
         "title":"为命令行开发自动生成交互提示",
         "tags":[]
+    },
+    {
+        "name":"weapp-tailwindcss",
+        "author":"sonofmagic",
+        "repo":"weapp-tailwindcss",        
+        "title":"把 `tailwindcss` 原子化思想带入小程序开发吧 !",
+        "tags":[]
+    },
+    {
+        "name":"weapp-pandacss",
+        "author":"sonofmagic",
+        "repo":"weapp-pandacss",        
+        "title":"小程序编译时 CSS-in-JS 解决方案",
+        "tags":[]
     }
 ]
