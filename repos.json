@@ -65,7 +65,7 @@
         "name":"weapp-pandacss",
         "author":"sonofmagic",
         "repo":"weapp-pandacss",        
-        "title":"小程序编译时 CSS-in-JS 解决方案"
+        "title":"小程序编译时 CSS-in-JS 解决方案",
         "tags":[]
     }
 ]
