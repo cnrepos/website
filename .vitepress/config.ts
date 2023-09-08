@@ -21,6 +21,7 @@ export default defineConfig({
         items: [
               { text: '关于我们', link: '/org/about' },
               { text: '加入我们', link: '/org/join' },
+              { text: '任务发布', link: '/org/tasks' },
               { text: '联系方式', link: '/org/contact' }
         ]               
       },
@@ -39,7 +40,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/cnrepos/website' }
     ]
   }
 })

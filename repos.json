@@ -48,6 +48,13 @@
         "tags":[]
     },
     {
+        "name":"logsets",
+        "author":"zhangfisher",
+        "repo":"logsets",        
+        "title":"终端输出增强组件",
+        "tags":[]
+    },
+    {
         "name":"weapp-tailwindcss",
         "author":"sonofmagic",
         "repo":"weapp-tailwindcss",        
@@ -58,7 +65,7 @@
         "name":"weapp-pandacss",
         "author":"sonofmagic",
         "repo":"weapp-pandacss",        
-        "title":"小程序编译时 CSS-in-JS 解决方案",
+        "title":"小程序编译时 CSS-in-JS 解决方案"
         "tags":[]
     }
 ]
