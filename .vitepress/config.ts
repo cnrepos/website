@@ -4,8 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CnRepos",
   base: '/website',
-  description: "用爱开源",
+  description: "用爱开源", 
   themeConfig: {
+    outline:{
+      level:[2,4],
+      label: '目录',
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
